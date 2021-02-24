@@ -1,0 +1,93 @@
+/* Body */
+
+body{
+  font-size: 16px;
+  background-color: #E5EFF5;
+  font-family: Karla;
+  font-weight: 400;
+  color: #fff;
+}
+
+.card-container{
+  box-shadow: 20px 20px 5px #cedfec;
+}
+
+.container-fluid{
+  padding: 10% 33%;
+}
+
+/* Section one */
+
+.first-box{
+  background-color: #fff;
+  padding: 6%;
+}
+
+.main-title{
+  color: #2AB2AF;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.main-subtitle{
+  color: #C0DF34;
+  font-size: 1.2rem;
+}
+
+.main-paragraph{
+  color: #98A6BD;
+}
+
+/* Second Section */
+
+.second-box{
+  background-color: #2AB2AF;
+  padding: 6%;
+}
+
+.section-title{
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.price{
+  color: #E5EFF5;
+}
+
+.price-tag{
+  color: #fff;
+  font-size: 2rem;
+}
+
+.price-subtitle{
+  font-size: 1rem;
+}
+
+.signup-button{
+  font-size: 1rem;
+  background-color: #C0DF34;
+  color: #fff;
+}
+
+/* Third Section */
+
+.third-box{
+  background-color: #3fb3af;
+  padding: 6%;
+}
+
+.third-box p{
+  line-height: 0.5;
+  font-size: 0.85rem;
+  color: #E5EFF5;
+}
+
+/*Media querys */
+
+@media screen and (max-width: 1290px){
+  .container-fluid{
+    padding: 10% 20%;
+  }
+}
